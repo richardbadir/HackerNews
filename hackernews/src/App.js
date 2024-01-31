@@ -1,13 +1,6 @@
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hello
-        </p>
-      </header>
-    </div>
-  );
-}
+import React, {useEffect, useState}from 'react';
+import {Stories} from './containers/stories.js'
+
+export const App=() =><Stories/>
 
 export default App;
